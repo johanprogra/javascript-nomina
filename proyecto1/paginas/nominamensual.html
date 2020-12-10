@@ -1,0 +1,99 @@
+<html>
+<head>
+
+<title>Liquidacion de Nomina Online</title>
+<link rel="stylesheet" href="/css/estilos.css">
+<script src="/js/datos.js" type="text/javascript"></script>
+<center>
+    <h1>Mafre y Cia Ltda</h1>
+<nav>
+    <ul>
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="#">Servicios</a>
+    <ul>
+        <li><a href="nominamensual.html">Liquidador mensual</a></li>
+        <li><a href="liquidador_de_prestaciones_sociales.html">Liquidador Prestaciones Sociales</a></li>
+         <li><a href="liquidadornocturno.html">Liquidador Recargo Nocturno</a></li>
+    </ul>
+    </li>
+    <li><a href="contacto.html">Contacto</a></li>
+    <li><a href="encuesta.html">Encuesta Satisfacción</a></li>
+    </ul>
+    </nav>
+</center>  
+</head>
+
+<body>
+
+
+    <h1>Pagina Interactiva Liquidador Nomina Incap</h1>
+    <form name="formulario" id="formulario">
+    <fieldset>
+    <table>
+    <legend>Datos Personales</legend> 
+    <th>Nombre:<td><input type="text" name="nombre" id="nombre" placeholder="Digite el Nombre del Empleado"><tr>
+        <th>Apellidos:<td><input type="text" name="Apellidos" id="Apellidos" placeholder="Digite los Apellidos del Empleado"><tr>
+            <th>Cargo:<td><input type="text" name="Cargo" id="Cargo" placeholder="Digite Nombre del Cargo"><tr>
+                <th>Salario:<td><input type="text" name="Salario" id="Salario" placeholder="Digite el Salario"><tr>
+                    <th>Dias laborados:<td><select name="dias" id="dias">
+
+    <option>1<option>2<option>3<option>4<option>5<option>6<option>7<option>8<option>9<option>10
+    <option>11<option>12<option>13<option>14<option>15<option>16<option>17<option>18<option>19<option>20
+    <option>21<option>22<option>23<option>24<option>25<option>26<option>27<option>28<option>29<option>30
+    </select> <tr>
+    <th>Tipo de Contrato:<select name name="tipoc" id="tipoc">
+    <option>Termino indefinido
+    <option>Prestacion de servicios
+    <option>fijo  
+    </select> <tr>
+
+    </table>
+    </fieldset>
+    <br><br>
+    <fieldset>
+    <table>
+<legend>Devengados</legend> 
+    <th>Basico:<td><input type="text" name="basico" id="basico" disabled><tr>
+        <th>Subsidio de Transporte:<td><input type="text" name="sutran" id="sutran" disabled><tr>
+            <th>Otros:<td><input type="text" name="otros" id="otros" placeholder="Digite otros devengados"><tr> 
+                
+                <th colspan="2"><h1>Horas Extras Laboradas</h1></th><tr>
+
+                    <th>HED<td><input type="text" name="hed" id="hed" placeholder="Digite HED trabajadas en el mes"><tr> 
+                        <th>HEDF<td><input type="text" name="hedf" id="hedf" placeholder="Digite HED trabajadas en el mes"><tr>
+                            <th>HEN<td><input type="text" name="hen" id="hen" placeholder="Digite HED trabajadas en el mes"><tr>
+                                <th>HENF<td><input type="text" name="henf" id="henf" placeholder="Digite HED trabajadas en el mes"><tr>
+                                    <th>TOTAL DEVENGADO<td><input type="text" name="totaldeve" id="totaldeve" disabled><tr></tr>
+                                        <th>HORAS EXTRAS<td><input type="text" name="totalex" id="totalex" disabled><tr></tr>
+</table>
+    </fieldset>
+    <br><br>
+    <fieldset>
+    <table>
+<legend>Deducidos</legend> 
+    <th>EPS:<td><input type="text" name="eps" id="eps" disabled><tr>
+        <th>FONDO DE PENSIONES:<td><input type="text" name="fondo" id="fondo" disabled><tr>
+            <th>FONDO SOLIDARIO:<td><input type="text" name="fondoli" id="fondoli" disabled><tr> 
+                <th>Otros:<td><input type="text" name="otrosdedu" id="otrosdedu" placeholder="Digite Otros Deducidos"><tr>   
+                    <th>TOTAL DEDICIDO:<td><input type="text" name="totaldedu" id="totaldedu" disabled><tr>   
+    </table>
+    </fieldset>
+    <br><br>
+    <fieldset>
+    <table>
+            <legend>Recibi Conforme</legend> 
+                <th>NETO A PAGAR:<td><input type="text" name="neto" id="neto" disabled><tr>
+    </table>
+    </fieldset>
+    <br><br>
+    <fieldset>
+    <table>
+            <td width=150><input type="button" value="Liquidar" onClick="Liquidar()">
+                <td width=150><input type="reset" value="Borrar Datos">
+        </fieldset>    
+</table>
+</form>
+</body>
+
+
+</html>

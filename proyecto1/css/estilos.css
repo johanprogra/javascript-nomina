@@ -1,0 +1,179 @@
+body{
+    font-family: arial;
+    padding: 10px;
+    background-color: #e3e4e5;
+}
+h1{
+    font-size: 40;
+    color: #17202A ;
+}
+.nomina{
+    border-radius: 50px;
+    border: #3b6978 5px solid;
+    width: 600;
+    height: 460;
+    position:absolute; left:50px;
+    position:absolute; top:300px;
+    text-align: center;
+}
+.cesantias{
+    border-radius: 50px;
+    border: #3b6978 5px solid;
+    width: 600;
+    height: 460;
+    position:absolute; right:50px;
+    position:absolute; top:300px;
+    text-align: center;
+}
+.intereses{
+    border-radius: 50px;
+    border: #3b6978 5px solid;
+    width: 600;
+    height: 460;
+    position:absolute; left: 50px;
+    position:absolute; top:800px;
+    text-align: center;
+}
+.prima{
+    border-radius: 50px;
+    border: #3b6978 5px solid;
+    width: 600;
+    height: 460;
+    position:absolute; right:50px;
+    position:absolute; top:800px;
+    text-align: center;
+}
+.vacaciones{
+    border-radius: 50px;
+    border: #3b6978 5px solid;
+    width: 600;
+    height: 460;
+    position:absolute; left:50px;
+    position:absolute; top:1300px;
+    text-align: center;
+}
+.horasd{
+    border-radius: 50px;
+    border: #3b6978 5px solid;
+    width: 600;
+    height: 460;
+    position:absolute; right:50px;
+    position:absolute; top:1300px;
+    text-align: center;
+}
+.horasn{
+    border-radius: 50px;
+    border: #3b6978 5px solid;
+    width: 600;
+    height: 460;
+    position:absolute; left: 50px;
+    position:absolute; top:1800px;
+    text-align: center;
+}
+.horasdd{
+    border-radius: 50px;
+    border: #3b6978 5px solid;
+    width: 600;
+    height: 460;
+    position:absolute; right: 50px;
+    position:absolute; top:1800px;
+    text-align: center;
+}
+.horasdf{
+    border-radius: 50px;
+    border: #3b6978 5px solid;
+    width: 600;
+    height: 460;
+    position:absolute; left: 50px;
+    position:absolute; top: 2300px;
+    text-align: center;
+}
+.hos{
+    border-radius: 50px;
+    border: #3b6978 5px solid;
+    width: 600;
+    height: 460;
+    position:absolute; right:  50px;
+    position:absolute; top: 2300px;
+    text-align: center;
+}
+.imagen{
+    
+    border-radius: 50px;
+    border: black 20px solid;
+}
+
+.menu ul{
+    list-style: none;
+}
+nav li{
+    line-height: 3rem;
+    position: relative;
+}
+nav li ul{
+    position: absolute;
+    display: none;
+}
+nav li:hover ul{
+    display: block;
+}
+nav a:hover{
+    background-color: #204051;
+}
+nav a{
+    color: white;
+    display: block;
+    padding: 0 2.5em;
+    text-decoration: none;
+    transition: .4%;
+}
+.menu ul ul ul{
+    display: none;
+}
+nav>ul{
+    background: #3b6978;
+    display: table;
+    width: 97%;
+}
+nav>ul>li{
+    float: left;
+}
+nav li li{
+    background: #3b6978;
+    width: 320px;
+}
+.bajo{
+font-family: sans-serif;
+font-size: 18px;
+font-weight: 400;
+color: #ffffff;
+background: #889ccf;
+margin: 0 0 25px;
+overflow: hidden;
+padding: 50px;
+padding-top: 2500px;
+border-radius: 50px;
+border: #3b6978 5px solid;
+}
+h3{
+    
+    text-align: left;
+}
+p{
+    position:absolute; left: 200px;
+    position:absolute; top:2820px;
+    color: #ffffff;
+}
+.sub{
+background: #3b6978;
+margin: 0 0 25px;
+overflow: hidden;
+padding: 8px;
+color: #ffffff;
+border-radius: 50px;
+border: #3b6978 5px solid;
+}
+.ima{
+    position:absolute; left: 1000px;
+    position:absolute; top:2840px;
+}
